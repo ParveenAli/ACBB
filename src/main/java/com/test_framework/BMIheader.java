@@ -37,9 +37,15 @@ public class BMIheader
     @FindBy(how= How.CSS,using = ".Header-module__Drawer--3CDW3.Header-module__NavDrawer--3oB3G > nav > div > ul > li:nth-child(4) > div > ul > li:nth-child(7) > a")
     private WebElement Monarflex;
 
+    String expectedIcopal="https://www.bmigroup.com/no/icopal";
+    String expectedAeroDek="https://www.bmigroup.com/no/aerodek";
+    String expectedZanda="https://www.bmigroup.com/no/zanda";
+    String expectedMonier="https://www.bmigroup.com/no/monier";
+    String expectedMonarflex= "https://www.bmigroup.com/no/monarflex";
+
     public void NavigateFuntion()
     {
-        driver.get("https://bmigroup.com/no");
+        driver.navigate().to("https://bmigroup.com/no");
         Utils.waitForSomeTime();
         PopCookies.click();
     }
