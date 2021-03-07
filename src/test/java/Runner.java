@@ -4,7 +4,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = ".",
-        tags = "@bcc",
+        tags = "@BMIHeader",
         format = {"pretty","html:test-out","json:json-output/cucumber.json","junit:junit_xml/cucumber.xml"},
         dryRun = false)
 

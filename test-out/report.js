@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8102104501,
+  "duration": 4444428000,
   "status": "passed"
 });
 formatter.scenario({
@@ -63,53 +63,53 @@ formatter.match({
   "location": "LoginSteps.iNavigateToBBCPage()"
 });
 formatter.result({
-  "duration": 3109783601,
+  "duration": 3777330300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickSigninLink()"
 });
 formatter.result({
-  "duration": 2716863400,
+  "duration": 2951615400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iEnterMyValidUserdetails()"
 });
 formatter.result({
-  "duration": 498464800,
+  "duration": 538599600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iClickLogin()"
 });
 formatter.result({
-  "duration": 2355720200,
+  "duration": 2947634800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.iAmAbleToLoginSuccessfully()"
 });
 formatter.result({
-  "duration": 52180801,
+  "duration": 59356500,
   "status": "passed"
 });
 formatter.match({
   "location": "BCCSteps.iClickOnSearch()"
 });
 formatter.result({
-  "duration": 1699138800,
+  "duration": 2154353900,
   "status": "passed"
 });
 formatter.match({
   "location": "MoreStep.iClickOnArts()"
 });
 formatter.result({
-  "duration": 1622585501,
+  "duration": 2049076300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 261998500,
+  "duration": 4234001200,
   "status": "passed"
 });
 });
